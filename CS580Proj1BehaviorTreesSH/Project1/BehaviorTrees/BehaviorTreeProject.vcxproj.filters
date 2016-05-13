@@ -375,4 +375,7 @@
       <Filter>Resource Files</Filter>
     </ResourceCompile>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\week02a.ppt" />
+  </ItemGroup>
 </Project>

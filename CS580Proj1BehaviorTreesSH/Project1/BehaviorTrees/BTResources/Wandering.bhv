@@ -1,0 +1,5 @@
+Wandering Sequencer
+	TargetSelectionMethod SelectorRandom
+		SelectRandomTarget Leaf
+		SelectFurthestTarget Leaf
+	PathToTarget Leaf

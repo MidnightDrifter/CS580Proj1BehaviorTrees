@@ -1,0 +1,1 @@
+DEFINE_DECORATOR_NODE(DecoratorInverter, "Decorator Inverter", void OnEdit();)

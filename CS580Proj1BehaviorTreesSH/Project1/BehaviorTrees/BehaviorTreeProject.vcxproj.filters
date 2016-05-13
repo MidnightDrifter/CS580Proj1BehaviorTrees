@@ -1,0 +1,378 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <FxCompile Include="MultiAnimation.fx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\MultiAnimation.cpp" />
+    <ClCompile Include="Source\MultiAnimationLib.cpp" />
+    <ClCompile Include="Source\AllocHierarchy.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\AnimationInstance.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tiny.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DXUT\DXUT.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DXUT\DXUTcamera.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DXUT\DXUTenum.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DXUT\DXUTgui.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DXUT\DXUTmisc.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DXUT\DXUTres.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DXUT\DXUTsettingsdlg.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DXUT\SDKmisc.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DXUT\SDKsound.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DXUT\SDKwavefile.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\database.cpp">
+      <Filter>GameEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\time.cpp">
+      <Filter>GameEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\world.cpp">
+      <Filter>GameEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BehaviorTree.cpp">
+      <Filter>GameEngine\BehaviorTreeFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Helpers.cpp">
+      <Filter>GameEngine\BehaviorTreeFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Nodes\DecoratorInverter.cpp">
+      <Filter>GameEngine\BehaviorTreeFramework\Nodes\Decorator</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Nodes\DecoratorRunUntilSucceed.cpp">
+      <Filter>GameEngine\BehaviorTreeFramework\Nodes\Decorator</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Nodes\PathToTarget.cpp">
+      <Filter>GameEngine\BehaviorTreeFramework\Nodes\Leaf</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Nodes\SelectFurthestTarget.cpp">
+      <Filter>GameEngine\BehaviorTreeFramework\Nodes\Leaf</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Nodes\SelectRandomTarget.cpp">
+      <Filter>GameEngine\BehaviorTreeFramework\Nodes\Leaf</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Nodes\SelectorRandom.cpp">
+      <Filter>GameEngine\BehaviorTreeFramework\Nodes\Selector</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\debuglog.cpp">
+      <Filter>GameEngine\StateMachineLanguage</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\msg.cpp">
+      <Filter>GameEngine\StateMachineLanguage</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\msgroute.cpp">
+      <Filter>GameEngine\StateMachineLanguage</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\statemch.cpp">
+      <Filter>GameEngine\StateMachineLanguage</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\body.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\gameobject.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\movement.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\example.cpp">
+      <Filter>GameObject\StateMachines</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\unittest1.cpp">
+      <Filter>GameObject\StateMachines\UnitTests</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\unittest2a.cpp">
+      <Filter>GameObject\StateMachines\UnitTests</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\unittest2b.cpp">
+      <Filter>GameObject\StateMachines\UnitTests</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\unittest2c.cpp">
+      <Filter>GameObject\StateMachines\UnitTests</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\unittest3a.cpp">
+      <Filter>GameObject\StateMachines\UnitTests</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\unittest3b.cpp">
+      <Filter>GameObject\StateMachines\UnitTests</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\unittest4.cpp">
+      <Filter>GameObject\StateMachines\UnitTests</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\unittest5.cpp">
+      <Filter>GameObject\StateMachines\UnitTests</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\unittest6.cpp">
+      <Filter>GameObject\StateMachines\UnitTests</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BehaviorTreeEditor.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GuiWindow.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ImGui\imgui_impl_dx9.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ImGui\imgui.cpp">
+      <Filter>GUI\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ImGui\imgui_demo.cpp">
+      <Filter>GUI\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ImGui\imgui_draw.cpp">
+      <Filter>GUI\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Nodes\SelectorSequencer.cpp">
+      <Filter>GameEngine\BehaviorTreeFramework\Nodes\Selector</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\MultiAnimation.h" />
+    <ClInclude Include="Source\Tiny.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DXUT\DXUT.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DXUT\DXUTcamera.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DXUT\DXUTenum.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DXUT\DXUTgui.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DXUT\DXUTmisc.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DXUT\DXUTres.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DXUT\DXUTsettingsdlg.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DXUT\SDKmisc.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DXUT\SDKsound.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DXUT\SDKwavefile.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\database.h">
+      <Filter>GameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\global.h">
+      <Filter>GameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\singleton.h">
+      <Filter>GameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\time.h">
+      <Filter>GameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\world.h">
+      <Filter>GameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BehaviorTree.h">
+      <Filter>GameEngine\BehaviorTreeFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BehaviorTreeNodes.h">
+      <Filter>GameEngine\BehaviorTreeFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Helpers.h">
+      <Filter>GameEngine\BehaviorTreeFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Nodes\DecoratorInverter.h">
+      <Filter>GameEngine\BehaviorTreeFramework\Nodes\Decorator</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Nodes\DecoratorRunUntilSucceed.h">
+      <Filter>GameEngine\BehaviorTreeFramework\Nodes\Decorator</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Nodes\PathToTarget.h">
+      <Filter>GameEngine\BehaviorTreeFramework\Nodes\Leaf</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Nodes\SelectFurthestTarget.h">
+      <Filter>GameEngine\BehaviorTreeFramework\Nodes\Leaf</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Nodes\SelectRandomTarget.h">
+      <Filter>GameEngine\BehaviorTreeFramework\Nodes\Leaf</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Nodes\SelectorRandom.h">
+      <Filter>GameEngine\BehaviorTreeFramework\Nodes\Selector</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\debuglog.h">
+      <Filter>GameEngine\StateMachineLanguage</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\msg.h">
+      <Filter>GameEngine\StateMachineLanguage</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\msgnames.h">
+      <Filter>GameEngine\StateMachineLanguage</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\msgroute.h">
+      <Filter>GameEngine\StateMachineLanguage</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\statemch.h">
+      <Filter>GameEngine\StateMachineLanguage</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\body.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\gameobject.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\movement.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\example.h">
+      <Filter>GameObject\StateMachines</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\unittest1.h">
+      <Filter>GameObject\StateMachines\UnitTests</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\unittest2a.h">
+      <Filter>GameObject\StateMachines\UnitTests</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\unittest2b.h">
+      <Filter>GameObject\StateMachines\UnitTests</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\unittest2c.h">
+      <Filter>GameObject\StateMachines\UnitTests</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\unittest3a.h">
+      <Filter>GameObject\StateMachines\UnitTests</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\unittest3b.h">
+      <Filter>GameObject\StateMachines\UnitTests</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\unittest4.h">
+      <Filter>GameObject\StateMachines\UnitTests</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\unittest5.h">
+      <Filter>GameObject\StateMachines\UnitTests</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\unittest6.h">
+      <Filter>GameObject\StateMachines\UnitTests</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GUIWindow.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ImGui\imgui_impl_dx9.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ImGui\imconfig.h">
+      <Filter>GUI\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ImGui\imgui.h">
+      <Filter>GUI\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ImGui\imgui_internal.h">
+      <Filter>GUI\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ImGui\stb_rect_pack.h">
+      <Filter>GUI\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ImGui\stb_textedit.h">
+      <Filter>GUI\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ImGui\stb_truetype.h">
+      <Filter>GUI\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\resource.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Nodes\SelectorSequencer.h">
+      <Filter>GameEngine\BehaviorTreeFramework\Nodes\Selector</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Animation">
+      <UniqueIdentifier>{9c582261-caf1-43e8-9013-7ca3b494e162}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{f6003d08-ef30-436e-8a37-fde572d90106}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine">
+      <UniqueIdentifier>{8897fccd-b181-4980-bf1e-8ff3ecf48c08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\BehaviorTreeFramework">
+      <UniqueIdentifier>{3c6d51a5-86f7-41af-bd25-aa0804719888}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\BehaviorTreeFramework\Nodes">
+      <UniqueIdentifier>{f9392e80-bc21-415a-b4f1-55d1eeff6e5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\BehaviorTreeFramework\Nodes\Decorator">
+      <UniqueIdentifier>{86277a9e-40a7-4f59-b08e-7cc869b1ed19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\BehaviorTreeFramework\Nodes\Selector">
+      <UniqueIdentifier>{ca2930d8-7e10-42f2-9404-a76012fa38bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\BehaviorTreeFramework\Nodes\Leaf">
+      <UniqueIdentifier>{42cddf0d-1a57-415e-9e8f-df51caa79c4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEngine\StateMachineLanguage">
+      <UniqueIdentifier>{56350a3c-e7c6-4b77-bb01-1cddc4d81c5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject">
+      <UniqueIdentifier>{0705471e-1eb6-4b3a-a5ed-b597a5877510}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\StateMachines">
+      <UniqueIdentifier>{9ba2af74-f99e-4715-b03a-f086a674c8f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\StateMachines\UnitTests">
+      <UniqueIdentifier>{3aec5b63-3dd9-4353-b2ab-22710af15761}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{00c836a9-a557-4a93-9b67-e8dfcea57f5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\ImGui">
+      <UniqueIdentifier>{a1da4489-6cbc-4166-ae1d-7e65a8db2a04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{0725351b-f75d-4b01-9096-25f6fffe3123}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Source\DXUT\directx.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="MultiAnimation.manifest">
+      <Filter>Resource Files</Filter>
+    </Manifest>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MultiAnimation.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

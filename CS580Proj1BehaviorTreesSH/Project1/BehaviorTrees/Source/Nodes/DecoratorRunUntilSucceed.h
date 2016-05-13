@@ -1,0 +1,1 @@
+DEFINE_DECORATOR_NODE(DecoratorRunUntilSucceed, "Continues running a node until the node succeeds", void OnEdit();)

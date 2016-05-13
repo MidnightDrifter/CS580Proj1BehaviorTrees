@@ -1,0 +1,1 @@
+DEFINE_SELECTOR_NODE(SelectorRandom, "Selector Random", void OnEdit();)

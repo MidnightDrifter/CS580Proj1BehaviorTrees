@@ -150,6 +150,10 @@
     <ClCompile Include="Source\Nodes\SelectorSequencer.cpp">
       <Filter>GameEngine\BehaviorTreeFramework\Nodes\Selector</Filter>
     </ClCompile>
+    <ClCompile Include="DecoratorRunXTimes.cpp" />
+    <ClCompile Include="Source\Nodes\DecoratorRunXTimes.cpp">
+      <Filter>GameEngine\BehaviorTreeFramework\Nodes\Decorator</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Source\MultiAnimation.h" />
@@ -311,6 +315,10 @@
     </ClInclude>
     <ClInclude Include="Source\Nodes\SelectorSequencer.h">
       <Filter>GameEngine\BehaviorTreeFramework\Nodes\Selector</Filter>
+    </ClInclude>
+    <ClInclude Include="DecoratorRunXTimes.h" />
+    <ClInclude Include="Source\Nodes\DecoratorRunXTimes.h">
+      <Filter>GameEngine\BehaviorTreeFramework\Nodes\Decorator</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

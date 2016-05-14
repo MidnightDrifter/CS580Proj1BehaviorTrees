@@ -8,6 +8,7 @@
 #include "Nodes/SelectorSequencer.h"
 #include "Nodes/DecoratorInverter.h"
 #include "Nodes/DecoratorRunUntilSucceed.h"
+#include "Nodes/DecoratorRunXTimes.h"  //SH added decorator
 #include "Nodes/PathToTarget.h"
 #include "Nodes/SelectRandomTarget.h"
 #include "Nodes/SelectFurthestTarget.h"

@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="DecoratorRunXTimes.cpp" />
     <ClCompile Include="Source\AllocHierarchy.cpp" />
     <ClCompile Include="Source\AnimationInstance.cpp" />
     <ClCompile Include="Source\BehaviorTree.cpp" />
@@ -163,6 +164,7 @@
     <ClCompile Include="Source\MultiAnimationLib.cpp" />
     <ClCompile Include="Source\Nodes\DecoratorInverter.cpp" />
     <ClCompile Include="Source\Nodes\DecoratorRunUntilSucceed.cpp" />
+    <ClCompile Include="Source\Nodes\DecoratorRunXTimes.cpp" />
     <ClCompile Include="Source\Nodes\PathToTarget.cpp" />
     <ClCompile Include="Source\Nodes\SelectFurthestTarget.cpp" />
     <ClCompile Include="Source\Nodes\SelectorRandom.cpp" />
@@ -183,6 +185,7 @@
     <ClCompile Include="Source\world.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="DecoratorRunXTimes.h" />
     <ClInclude Include="Source\BehaviorTree.h" />
     <ClInclude Include="Source\BehaviorTreeNodes.h" />
     <ClInclude Include="Source\body.h" />
@@ -217,6 +220,7 @@
     <ClInclude Include="Source\MultiAnimation.h" />
     <ClInclude Include="Source\Nodes\DecoratorInverter.h" />
     <ClInclude Include="Source\Nodes\DecoratorRunUntilSucceed.h" />
+    <ClInclude Include="Source\Nodes\DecoratorRunXTimes.h" />
     <ClInclude Include="Source\Nodes\PathToTarget.h" />
     <ClInclude Include="Source\Nodes\SelectFurthestTarget.h" />
     <ClInclude Include="Source\Nodes\SelectorRandom.h" />

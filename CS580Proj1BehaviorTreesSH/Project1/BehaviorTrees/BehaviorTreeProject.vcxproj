@@ -127,7 +127,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="DecoratorRunXTimes.cpp" />
     <ClCompile Include="Source\AllocHierarchy.cpp" />
     <ClCompile Include="Source\AnimationInstance.cpp" />
     <ClCompile Include="Source\BehaviorTree.cpp" />
@@ -185,7 +184,6 @@
     <ClCompile Include="Source\world.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="DecoratorRunXTimes.h" />
     <ClInclude Include="Source\BehaviorTree.h" />
     <ClInclude Include="Source\BehaviorTreeNodes.h" />
     <ClInclude Include="Source\body.h" />

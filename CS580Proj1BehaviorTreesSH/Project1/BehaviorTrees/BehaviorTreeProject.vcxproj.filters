@@ -153,6 +153,18 @@
     <ClCompile Include="Source\Nodes\DecoratorRunXTimes.cpp">
       <Filter>GameEngine\BehaviorTreeFramework\Nodes\Decorator</Filter>
     </ClCompile>
+    <ClCompile Include="Source\Nodes\SelectorWeightedRandom.cpp">
+      <Filter>GameEngine\BehaviorTreeFramework\Nodes\Selector</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Nodes\DecoratorRunUntilFail.cpp">
+      <Filter>GameEngine\BehaviorTreeFramework\Nodes\Decorator</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Nodes\SelectWeightedRandomTarget.cpp">
+      <Filter>GameEngine\BehaviorTreeFramework\Nodes\Leaf</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Nodes\DecoratorRunXTimesOrUntilSucceed.cpp">
+      <Filter>GameEngine\BehaviorTreeFramework\Nodes\Decorator</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Source\MultiAnimation.h" />
@@ -318,6 +330,18 @@
     <ClInclude Include="Source\Nodes\DecoratorRunXTimes.h">
       <Filter>GameEngine\BehaviorTreeFramework\Nodes\Decorator</Filter>
     </ClInclude>
+    <ClInclude Include="Source\Nodes\SelectorWeightedRandom.h">
+      <Filter>GameEngine\BehaviorTreeFramework\Nodes\Selector</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Nodes\DecoratorRunUntilFail.h">
+      <Filter>GameEngine\BehaviorTreeFramework\Nodes\Decorator</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Nodes\SelectWeightedRandomTarget.h">
+      <Filter>GameEngine\BehaviorTreeFramework\Nodes\Leaf</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Nodes\DecoratorRunXTimesOrUntilSucceed.h">
+      <Filter>GameEngine\BehaviorTreeFramework\Nodes\Decorator</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Animation">
@@ -383,5 +407,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\week02a.ppt" />
+    <None Include="Project1_Instruction.docx" />
   </ItemGroup>
 </Project>

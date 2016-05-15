@@ -162,13 +162,17 @@
     <ClCompile Include="Source\MultiAnimation.cpp" />
     <ClCompile Include="Source\MultiAnimationLib.cpp" />
     <ClCompile Include="Source\Nodes\DecoratorInverter.cpp" />
+    <ClCompile Include="Source\Nodes\DecoratorRunUntilFail.cpp" />
     <ClCompile Include="Source\Nodes\DecoratorRunUntilSucceed.cpp" />
     <ClCompile Include="Source\Nodes\DecoratorRunXTimes.cpp" />
+    <ClCompile Include="Source\Nodes\DecoratorRunXTimesOrUntilSucceed.cpp" />
     <ClCompile Include="Source\Nodes\PathToTarget.cpp" />
     <ClCompile Include="Source\Nodes\SelectFurthestTarget.cpp" />
     <ClCompile Include="Source\Nodes\SelectorRandom.cpp" />
     <ClCompile Include="Source\Nodes\SelectorSequencer.cpp" />
+    <ClCompile Include="Source\Nodes\SelectorWeightedRandom.cpp" />
     <ClCompile Include="Source\Nodes\SelectRandomTarget.cpp" />
+    <ClCompile Include="Source\Nodes\SelectWeightedRandomTarget.cpp" />
     <ClCompile Include="Source\statemch.cpp" />
     <ClCompile Include="Source\time.cpp" />
     <ClCompile Include="Source\Tiny.cpp" />
@@ -217,13 +221,17 @@
     <ClInclude Include="Source\msgroute.h" />
     <ClInclude Include="Source\MultiAnimation.h" />
     <ClInclude Include="Source\Nodes\DecoratorInverter.h" />
+    <ClInclude Include="Source\Nodes\DecoratorRunUntilFail.h" />
     <ClInclude Include="Source\Nodes\DecoratorRunUntilSucceed.h" />
     <ClInclude Include="Source\Nodes\DecoratorRunXTimes.h" />
+    <ClInclude Include="Source\Nodes\DecoratorRunXTimesOrUntilSucceed.h" />
     <ClInclude Include="Source\Nodes\PathToTarget.h" />
     <ClInclude Include="Source\Nodes\SelectFurthestTarget.h" />
     <ClInclude Include="Source\Nodes\SelectorRandom.h" />
     <ClInclude Include="Source\Nodes\SelectorSequencer.h" />
+    <ClInclude Include="Source\Nodes\SelectorWeightedRandom.h" />
     <ClInclude Include="Source\Nodes\SelectRandomTarget.h" />
+    <ClInclude Include="Source\Nodes\SelectWeightedRandomTarget.h" />
     <ClInclude Include="Source\resource.h" />
     <ClInclude Include="Source\singleton.h" />
     <ClInclude Include="Source\statemch.h" />
@@ -258,6 +266,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\week02a.ppt" />
+    <None Include="Project1_Instruction.docx" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

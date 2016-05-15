@@ -1,0 +1,9 @@
+Basic AI idea:   have 3 characters:  Police, Killer, Civilian
+
+Killer tries to kill X number of people, weighted chance to succeed with each kill attempt on a given person--first kill is guaranteed
+Will try to kill a certain person 3 times, then give up and change targets
+Nearest 2 civilians will notice the death
+Randomly choose to flee or run to police--weighted towards fleeing
+Police will try to chase for Y seconds, then give up--1/100 chance that a policeman will idle and never catch or chase the Killer
+Repeat until Killer caught or he has killed his quota
+Totally not a Party Hard ripoff thing
